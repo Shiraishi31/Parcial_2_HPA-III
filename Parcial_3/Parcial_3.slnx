@@ -1,0 +1,20 @@
+<Solution>
+  <Folder Name="/BaseDeDatos/">
+    <File Path="BaseDeDatos/01_CrearBaseDeDatos.sql" />
+    <File Path="BaseDeDatos/02_ConsultasAnalisis.sql" />
+    <File Path="BaseDeDatos/03_UsuarioAplicacion.sql" />
+    <File Path="BaseDeDatos/LoginBCryptDB_backup.sql" />
+  </Folder>
+  <Folder Name="/Punto1_Figuras/">
+    <Project Path="Punto1_Figuras/Punto1_Figuras.csproj" />
+  </Folder>
+  <Folder Name="/Punto2_Json/">
+    <Project Path="Punto2_Json/Punto2_Json.csproj" />
+  </Folder>
+  <Folder Name="/Punto3_LoginBCrypt/">
+    <Project Path="Punto3_LoginBCrypt/Presentacion/Presentacion.csproj" />
+    <Project Path="Punto3_LoginBCrypt/Negocio/Negocio.csproj" />
+    <Project Path="Punto3_LoginBCrypt/Datos/Datos.csproj" />
+    <Project Path="Punto3_LoginBCrypt/Entidades/Entidades.csproj" />
+  </Folder>
+</Solution>

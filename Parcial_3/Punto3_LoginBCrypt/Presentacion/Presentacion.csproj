@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Capa de PRESENTACIÓN: Windows Forms con el patrón MVP.
+       Solo conoce a Negocio y a Entidades (nunca a Datos ni a MySQL). -->
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- El diseñador de Windows Forms genera código sin anotaciones de null,
+         por eso en esta capa se deja desactivado. -->
+    <Nullable>disable</Nullable>
+    <RootNamespace>Presentacion</RootNamespace>
+    <AssemblyName>LoginBCrypt</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Negocio\Negocio.csproj" />
+    <ProjectReference Include="..\Entidades\Entidades.csproj" />
+  </ItemGroup>
+
+</Project>

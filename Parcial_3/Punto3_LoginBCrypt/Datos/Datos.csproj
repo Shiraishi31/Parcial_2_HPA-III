@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Capa de DATOS: la conexión a MySQL y las consultas SQL.
+       Solo conoce a la capa de Entidades. -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- dotnet add package MySql.Data -->
+    <PackageReference Include="MySql.Data" Version="9.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Entidades\Entidades.csproj" />
+  </ItemGroup>
+
+</Project>
